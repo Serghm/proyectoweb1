@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Pokémon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos al Mundo Pokémon</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
+                <li class="dropdown">
+                    <a href="#pokemon">Pokémon</a>
+                    <ul class="dropdown-content">
+                        <li><a href="generacion1.html">Generación 1</a></li> 
+                        <li><a href="generacion2.html">Generación 2</a></li>
+                        <li><a href="generacion3.html">Generación 3</a></li>
+                        
+                    </ul>
+                </li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <img src="images/Charizard.png" alt="Charizard" class="hero-image">
+            <h2>¡Elige tu Pokémon favorito!</h2>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Este Sitio</h2>
+        <p>Bienvenido al sitio donde puedes aprender más sobre tus Pokémon favoritos. Aquí encontrarás información, curiosidades y todo lo que necesitas saber sobre el mundo Pokémon.</p>
+    </section>
+
+    <section id="pokemon">
+        <h2>Pokémon Destacados</h2>
+        <div class="pokemon-list">
+            <div class="pokemon">
+                <img src="images/Bulbasaur.png" alt="Bulbasaur">
+                <h3>Bulbasaur</h3>
+            </div>
+            <div class="pokemon">
+                <img src="images/Charmander.png" alt="Charmander">
+                <h3>Charmander</h3>
+            </div>
+            <div class="pokemon">
+                <img src="images/Squirtle.png" alt="Squirtle">
+                <h3>Squirtle</h3>
+            </div>
+            <div class="pokemon">
+                <img src="images/Pikachu.png" alt="Pikachu">
+                <h3>Pikachu</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna duda o quieres saber más, no dudes en contactarnos.</p>
+        <form action="#">
+            <input type="text" placeholder="Escribe tu nombre" required>
+            <input type="email" placeholder="Escribe tu correo electrónico" required>
+            <textarea placeholder="Escribe tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pokémon Mundo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
